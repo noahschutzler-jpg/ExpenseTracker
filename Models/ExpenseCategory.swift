@@ -16,16 +16,16 @@ enum ExpenseCategory: String, CaseIterable, Identifiable, Codable {
 
     var icon: String {
         switch self {
-        case .foodAndDining: return "ðŸ½ï¸"
-        case .fuel: return "â›½"
-        case .vehicleMaintenance: return "ðŸ”§"
-        case .rentMortgage: return "ðŸ "
-        case .shopping: return "ðŸ›ï¸"
-        case .entertainment: return "ðŸŽ¬"
-        case .utilities: return "ðŸ’¡"
-        case .healthcare: return "âš•ï¸"
-        case .travel: return "âœˆï¸"
-        case .other: return "ðŸ“¦"
+        case .foodAndDining: return "🍽️"
+        case .fuel: return "⛽"
+        case .vehicleMaintenance: return "🔧"
+        case .rentMortgage: return "🏠"
+        case .shopping: return "🛍️"
+        case .entertainment: return "🎬"
+        case .utilities: return "💡"
+        case .healthcare: return "⚕️"
+        case .travel: return "✈️"
+        case .other: return "📦"
         }
     }
 

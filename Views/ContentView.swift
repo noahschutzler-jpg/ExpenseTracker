@@ -23,9 +23,9 @@ struct ContentView: View {
                         Label("Goals", systemImage: "star")
                     }
 
-                RecurringExpensesView()
+                OverviewView()
                     .tabItem {
-                        Label("Recurring", systemImage: "repeat")
+                        Label("Overview", systemImage: "chart.pie")
                     }
 
                 FinancialWrappedView()

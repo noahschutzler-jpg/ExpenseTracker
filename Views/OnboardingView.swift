@@ -10,7 +10,7 @@ struct OnboardingView: View {
             Text("ðŸ’°")
                 .font(.system(size: 80))
 
-            Text("ExpenseTracker")
+            Text("PocketWatch")
                 .font(.largeTitle)
                 .fontWeight(.bold)
 

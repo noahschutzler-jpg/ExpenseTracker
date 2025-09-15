@@ -94,7 +94,17 @@ struct DashboardView: View {
                 }
                 .padding(.top)
             }
-            .navigationTitle("Dashboard")
+            .navigationTitle("PocketWatch")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        showingAddExpense = true
+                    }) {
+                        Image(systemName: "plus.circle.fill")
+                            .font(.title2)
+                    }
+                }
+            }
             .sheet(isPresented: $showingAddExpense) {
                 AddExpenseView()
             }
